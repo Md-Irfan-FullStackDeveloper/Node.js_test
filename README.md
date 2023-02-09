@@ -26,14 +26,14 @@ User also get all the invoices and they can get Invoice by their number as well.
 #### Get all invoices
 
 ```http
-  GET /api/invoice
+  GET "/api/invoice"
 ```
 To get the all invoices.
 
 #### Get particular invoice
 
 ```http
-  GET /api/invoice/${invoiceNumber}
+  GET "/api/invoice/${invoiceNumber}"
 ```
 
 | Parameter | Type     | Description                       |
@@ -43,7 +43,7 @@ To get the all invoices.
 #### Update particular invoice
 
 ```http
-  GET /api/invoice/${invoiceNumber}
+  GET "/api/invoice/${invoiceNumber}"
 ```
 
 | Parameter | Type     | Description                       |
@@ -55,7 +55,7 @@ Pass the invoice value what you want to Update like invoice amount in json body.
 #### Delete particular invoice
 
 ```http
-  GET /api/invoice/${invoiceNumber}
+  GET "/api/invoice/${invoiceNumber}"
 ```
 
 | Parameter | Type     | Description                       |
@@ -65,7 +65,7 @@ Pass the invoice value what you want to Update like invoice amount in json body.
 ### To add an invoice
 
 ```http
-  GET /api/invoice/addInvoice
+  GET "/api/invoice/addInvoice"
 ```
 ```
     {
